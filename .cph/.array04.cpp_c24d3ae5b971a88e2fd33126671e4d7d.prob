@@ -1,0 +1,1 @@
+{"name":"Local: array04","url":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\array04.cpp","tests":[{"id":1625242644559,"input":"9\n0 0 0 1 1 1 2 2 2 ","output":"0 0 0 0 1 1 1 2 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\array04.cpp","group":"local","local":true}
