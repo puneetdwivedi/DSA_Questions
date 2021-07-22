@@ -13,7 +13,7 @@ int main(){
 
     int t=0;
     cin>>t;t--;
-    do{
+    while(t--){
         int n;cin>>n;
         int arr[n];
         loop(i,0,n){
@@ -31,7 +31,7 @@ int main(){
         }
         cout<<endl;
 
-    }while(t--);
+    }
 
     return 0;
 }
