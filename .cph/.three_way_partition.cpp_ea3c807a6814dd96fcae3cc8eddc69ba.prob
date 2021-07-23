@@ -1,0 +1,1 @@
+{"name":"Local: three_way_partition","url":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\three_way_partition.cpp","tests":[{"id":1626613731304,"input":"4\n87 78 16 94\n36 72","output":"16 78 94 87"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\three_way_partition.cpp","group":"local","local":true}

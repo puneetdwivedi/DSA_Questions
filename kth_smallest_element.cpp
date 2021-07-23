@@ -57,3 +57,49 @@ int main(){
 
     return 0;
 }
+
+
+/*
+GFG Code
+
+class Solution{
+    public:
+    // arr : given array
+    // l : starting index of the array i.e 0
+    // r : ending index of the array i.e size-1
+    // k : find kth smallest element and return using this function
+    int partition(int arr[], int low, int high){
+    int pivot = arr[high];
+ 
+    int i = (low - 1);
+ 
+    for (int j = low; j <= high - 1; j++){
+        if (arr[j] <= pivot) {
+            i++;
+            swap(arr[i], arr[j]);
+        }
+    }
+    swap(arr[i + 1], arr[high]);
+    return (i + 1);
+}
+    int partition_rand(int arr[], int low, int high){
+        int random = low + rand() % (high - low+1);
+        swap(arr[random], arr[high]);
+        return partition(arr, low, high);
+    }
+    int kthSmallest(int arr[], int l, int h, int k) {
+        int pi=partition_rand(arr,l,h);
+        if(pi > k-1){
+            kthSmallest(arr,l,pi-1,k);
+        }
+        else if(k-1> pi){
+            kthSmallest(arr,pi+1,h,k);
+        }
+        else{
+            return arr[pi];
+        }
+    }
+};
+
+
+*/
