@@ -1,0 +1,1 @@
+{"name":"Local: subarray_with_zero_Sum","url":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\subarray_with_zero_Sum.cpp","tests":[{"id":1628267074127,"input":"5\n4 2 0 1 6","output":"Yes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\subarray_with_zero_Sum.cpp","group":"local","local":true}
