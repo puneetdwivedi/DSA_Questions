@@ -1,0 +1,1 @@
+{"name":"Local: palindrome_string","url":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\palindrome_string.cpp","tests":[{"id":1628334835123,"input":"abba","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\palindrome_string.cpp","group":"local","local":true}
