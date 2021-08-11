@@ -28,3 +28,5 @@ int main(){
 
     return 0;
 }
+
+// approch is to use sliding window technique

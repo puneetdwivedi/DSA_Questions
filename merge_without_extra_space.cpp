@@ -4,27 +4,6 @@ using namespace std;
 #define endl "\n"
 typedef long long int ll;
 
-int nextGap(int gap) {
-	    if (gap <= 1) return 0;
-	    return (gap / 2) + (gap % 2);
-	}
-	void merge(int arr1[], int arr2[], int n, int m) {
-    int i, j, gap = n + m;
-	    for (gap = nextGap(gap); gap > 0; gap = nextGap(gap)) {
-	        for (i = 0; i + gap < n; i++)
-	            if (arr1[i] > arr1[i + gap]) swap(arr1[i], arr1[i + gap]);
-
-	        for (j = gap > n ? gap - n : 0; i < n && j < m; i++, j++)
-	            if (arr1[i] > arr2[j]) swap(arr1[i], arr2[j]);
-
-	        if (j < m) {
-
-	            for (j = 0; j + gap < m; j++)
-	                if (arr2[j] > arr2[j + gap]) swap(arr2[j], arr2[j + gap]);
-	        }
-	    }
-	} 
-
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -36,10 +15,6 @@ int main(){
         int arr1[n],arr2[m];
         loop(i,0,n)cin>>arr1[i];
         loop(i,0,m)cin>>arr2[i];
-        merge(arr1,arr2,n,m);
-        loop(i,0,n)cout<<arr1[i]<<" ";
-        loop(i,0,m)cout<<arr2[i]<<" ";
-        cout<<endl; 
         
     }while(t--);
 
@@ -88,4 +63,6 @@ int main(){
 
 3rd METHOD:
 gap method
+
+
 */
