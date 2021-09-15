@@ -1,1 +1,0 @@
-{"name":"Local: rain_water_trapping","url":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\rain_water_trapping.cpp","tests":[{"id":1628443012072,"input":"4\n7 4 0 9","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\rain_water_trapping.cpp","group":"local","local":true}

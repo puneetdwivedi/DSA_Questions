@@ -1,1 +1,0 @@
-{"name":"Local: array03","url":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\array03.cpp","tests":[{"id":1625081417357,"input":"1\n6 6\n2 7 8 1 0 6","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Languagelearning\\C++\\dsaquestions\\questions\\array03.cpp","group":"local","local":true}
